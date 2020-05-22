@@ -1,6 +1,6 @@
 {
   "name": "geolocation-promise",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Provide promise support for javascript geolocation API",
   "main": "src/index.js",
   "scripts": {

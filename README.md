@@ -14,7 +14,7 @@ is implemented using promise and user can use function : **`getCurrentPositionPr
 # Usage
 ## getCurrentPositionPromise
 
-    import { getCurrentPositionPromise } = require('geolocation-promise');
+    const { getCurrentPositionPromise } = require('geolocation-promise');
     
     getCurrentPositionPromise()
 	    .then((position) => {
@@ -23,8 +23,8 @@ is implemented using promise and user can use function : **`getCurrentPositionPr
 	    .catch(e => console.log(e));
 OR use async/await
 
-    import { getCurrentPositionPromise } = require('geolocation-promise');
-    
+    const { getCurrentPositionPromise } = require('geolocation-promise');
+    //inside async function
     try{
 	    const position = await getCurrentPositionPromise();
 	    console.log(position);
