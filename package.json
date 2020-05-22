@@ -1,0 +1,24 @@
+{
+  "name": "geolocation-promise",
+  "version": "1.0.1",
+  "description": "Provide promise support for javascript geolocation API",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/js-pugilist/geolocation-promise.git"
+  },
+  "keywords": [
+    "Promise",
+    "Geolocation",
+    "API",
+    "ES6",
+    "JavaScript"
+  ],
+  "author": {
+    "name": "Abhishek Singh"
+  },
+  "license": "MIT"
+}
